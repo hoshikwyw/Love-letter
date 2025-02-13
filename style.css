@@ -27,8 +27,8 @@ section {
     align-items: center;
     text-align: center;
     padding: 1em;
-    background-color: #202020;
-    color: #fff;
+    background-color: #DCAE96;
+    color: #FFFFF0;
 }
 
 .hero h1, .outro h1 {
@@ -48,13 +48,13 @@ section {
     transform: translate(-50%, -50%);
     will-change: transform;
     width: 25%;
-    height: 50%;
+    height: 60%;
     padding: 0.5em;
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    background-color: #202020;
-    color: #fff;
+    background-color: #DCAE96;
+    color: #FFFFF0;
 }
 
 .card-img {
@@ -79,4 +79,21 @@ section {
     .card {
         width: 75%;
     }
+}
+
+.outro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+    background-color: #DCAE96;
+    color: #FFFFF0;
+}
+
+.final-img {
+    width: 40%;
+    height: 0%;
+    object-fit: cover;
 }
